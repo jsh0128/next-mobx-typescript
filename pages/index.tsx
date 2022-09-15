@@ -8,6 +8,8 @@ const Home: NextPage = () => {
 
 Home.getInitialProps = async (ctx: CustomNextPage) => {
   await ctx.store.CountStore.increase();
+
+  return;
 };
 
 export default Home;
