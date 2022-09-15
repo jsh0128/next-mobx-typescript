@@ -12,6 +12,8 @@ TypeScript, Next, React, MobX, Styled-Components, Material UI
 
 ## Next Mobx TypeScript 사용 규칙
 
+[count 예시 참고하기](https://github.com/jsh0128/next-mobx-typescript)
+
 - store를 만들떄
   - class로 선언하고, class는 대문자로 선언한다.
   - 폴더를 만들고 그 안에 index.ts를 만들어서 사용한다.
